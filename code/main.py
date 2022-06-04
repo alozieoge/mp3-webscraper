@@ -14,11 +14,11 @@ def ends_with_mp3(css_href):
 
 
 # Provide the website URL and target folder / directory location.
-URL = "..."
+SOURCE_URL = "..."
 TARGET_FOLDER = "..."
 
 # Get the response and extract the webpage text from the website URL.
-response = requests.get(url=URL)
+response = requests.get(url=SOURCE_URL)
 web_page = response.text
 
 # Parse the webpage HTML to a new BeautifulSoup object.

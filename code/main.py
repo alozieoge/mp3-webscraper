@@ -31,6 +31,9 @@ a_tags_mp3 = soup.find_all(name="a", href=ends_with_mp3)
 a_tags_mp3_links = []
 for tag in a_tags_mp3:
     a_tags_mp3_links.append(tag.get("href"))
+    
+# Specify how many mp3 files will be downloaded.
+print("Downloading", len(a_tags_mp3_links), "files ...")
 
 # For each mp3 url link, request the source and write the content of the response (mp3 file) to the target folder in binary mode.
 # Each file is named as a Chapter.

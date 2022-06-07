@@ -8,7 +8,7 @@ def ends_with_mp3(css_href):
     Checks if the href attribute value ends with 'mp3'.
     Returns True if the input string is not None and the above condition is met, otherwise returns False.
     :param css_href: A string of the href value.
-    :return: A boolean depending on the value of css_href
+    :return: A boolean depending on the value of css_href.
     """
     return css_href is not None and css_href.endswith("mp3")
 

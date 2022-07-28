@@ -48,5 +48,3 @@ for url_mp3 in a_tags_mp3_links:
     
     # 1 second delay.
     sleep(1)
-
-

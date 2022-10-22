@@ -47,4 +47,4 @@ for url_mp3 in a_tags_mp3_links:
         print("Finished writing", filename, "...")
     
     # 1 second delay.
-    sleep(1)
+    sleep(1) 
